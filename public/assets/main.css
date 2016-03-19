@@ -1,0 +1,79 @@
+.images-container {
+	margin: 0 auto;
+}
+
+.learn {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.learn td {
+	border: 1px solid red;
+	width:30px;
+	height: 30px;
+}
+
+.learn td.active {
+	background-color: black;
+}
+
+.query {
+	border: 1px solid grey;
+	display: inline-block;
+}
+
+.query td {
+	border: 1px solid green;
+	width:30px;
+	height: 30px;
+}
+
+.query td.active {
+	background-color: grey;
+}
+
+.learnButton {
+	position: relative;
+	margin:40px 200px;
+	width:400px;
+	height: 150px;
+	background-color: rgba(255, 140, 0, 1);
+	text-align: center;
+	font-size: 80px;
+	display: inline-block;
+}
+
+.recognizeButton {
+	position: relative;
+	margin:40px 0;
+	width:400px;
+	height: 150px;
+	background-color: rgba(0, 0, 0, 1);
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	display: inline-block;
+}
+
+.learnButton:hover {
+	cursor: pointer;
+}
+
+.recognizeButton:hover {
+	cursor: pointer;
+}
+
+.learnButton:active {
+	margin: 41px 201px;
+	box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.learnButton span {
+	position: relative;
+	top: 20px;
+}
+
+.recognizeButton span {
+	position: relative;
+	top: 20px;
+}
